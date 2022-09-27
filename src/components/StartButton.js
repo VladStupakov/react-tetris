@@ -1,7 +1,9 @@
 import React from 'react'
 
-export const StartButton = () => {
+export const StartButton = ({startGame}) => {
   return (
-    <div>StartButton</div>
+    <button className='result-piece start-button' onClick={() => startGame()}>
+      StartButton
+    </button>
   )
 }

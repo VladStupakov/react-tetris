@@ -1,9 +1,9 @@
 import React from 'react'
 
-const ResultPiece = () => {
+const ResultPiece = ({name, text}) => {
   return (
-    <section>
-      ResultPiece
+    <section className='result-piece'>
+      {name + '    ' + text}
     </section>
   )
 }

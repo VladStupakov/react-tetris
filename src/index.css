@@ -1,0 +1,62 @@
+body{
+  margin: 0;
+  background-color: #aaa;
+  box-sizing: border-box;
+  height: 90vh;
+}
+
+@font-face {
+  font-family: 'Pixel';
+  src: url('fonts/Pixel-LCD-7.woff') format('woff');
+}
+
+.tetris {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 40px;
+  margin: 0 auto;
+  max-width: 900px;
+}
+
+.play-area{
+  display: grid;
+  row-gap: 1px;
+  column-gap: 1px;
+}
+
+.cell{
+  width: 25px;
+  height: 25px;
+}
+
+.results{
+  width: 20%;
+  min-width: 220px;
+  display: block;
+  padding: 0 20px;
+}
+
+
+.result-piece{
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  margin: 0 0 20px 0;
+  padding: 0 10px;
+  border: 4px solid #333;
+  border-radius: 15px;
+  min-height: 30px;
+  width: 100%;
+  font-family: Pixel;
+  font-size: 14px;
+}
+
+.start-button{
+  background-color: #333;
+  color: white;
+  cursor: pointer;
+  justify-content: center;
+  margin: 50px 12px;
+}
+

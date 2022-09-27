@@ -1,9 +1,11 @@
 import React from 'react'
+import { TETROMINOS } from '../tetrominos'
+
 
 const Cell = ({type}) => {
   return (
-    <div className='cell'>
-      cell
+    <div className='cell' style={{backgroundColor: TETROMINOS[type].color}}>
+      
     </div>
   )
 }
